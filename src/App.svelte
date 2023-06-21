@@ -94,37 +94,37 @@
           <input class="form-control" type="Date"  name={field.code} placeholder="Date of Birth">
         </div>
       {/if}
-      {#if field.name==='Years_Of_Experience'}
+      {#if field.name==='Years Of Experience'}
         <div class="form-group">
           <label for="Years of experience">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Years of Experience">
         </div>
       {/if}
-      {#if field.name==='Qualification'}
+      {#if field.name ==='Qualification'}
         <div class="form-group">
           <label for="Qualification">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Qualification">
         </div>
       {/if}
-      {#if field.code==='RATING'}
+      {#if field.name ==='Rating'}
         <div class="form-group">
           <label for="Rating">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Rating">
         </div>
       {/if}
-      {#if field.code==='GENDER'}
+      {#if field.name ==='Gender'}
         <div class="form-group">
           <label for="gender">{field.label}</label>
           <input class="form-control" type="text"  id="gender" name={field.code} placeholder="Gender" >
         </div>
       {/if}
-      {#if field.code==='INDUSTRY'}
+      {#if field.name ==='Industry'}
         <div class="form-group">
           <label for="industry">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Industry" >
         </div>
       {/if}
-      {#if field.name === 'Languages_Level'}
+      {#if field.name === 'Language Level'}
         <div class="form-group">
           <label for="Languages Level">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Languages Level">
