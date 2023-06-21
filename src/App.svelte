@@ -94,13 +94,13 @@
           <input class="form-control" type="Date"  name={field.code} placeholder="Date of Birth">
         </div>
       {/if}
-      {#if field.code==='hiref22f319e4f1543f9975cdc851dd6e29a'}
+      {#if field.name==='Years_Of_Experience'}
         <div class="form-group">
           <label for="Years of experience">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Years of Experience">
         </div>
       {/if}
-      {#if field.code==='QUALIFICATION'}
+      {#if field.name==='Qualification'}
         <div class="form-group">
           <label for="Qualification">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Qualification">
@@ -124,7 +124,7 @@
           <input class="form-control" type="text"  name={field.code} placeholder="Industry" >
         </div>
       {/if}
-      {#if field.code === 'hire1bd89e6e0c9a4828a84c994519309dec'}
+      {#if field.name === 'Languages_Level'}
         <div class="form-group">
           <label for="Languages Level">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Languages Level">
