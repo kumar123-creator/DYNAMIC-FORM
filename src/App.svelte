@@ -82,13 +82,13 @@
           <input class="form-control" type="text"  name={field.code} placeholder="languages">
         </div>
       {/if}
-      {#if field.code==='EXPERIENCE'}
+      {#if field.code==='weav04e7bf4b25574e419d7a36399d579c86'}
         <div class="form-group">
           <label for="Experience">{field.label}</label>
           <input class="form-control" type="text"  name={field.code} placeholder="Experience">
         </div>
       {/if}
-      {#if field.code==='DOB'}
+      {#if field.code=='weava647dfe7b2c44d7cbf1be28e231018d1'}
         <div class="form-group">
           <label for="Date of birth">{field.label}</label>
           <input class="form-control" type="Date"  name={field.code} placeholder="Date of Birth">
